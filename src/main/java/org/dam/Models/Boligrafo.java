@@ -6,7 +6,7 @@ public class Boligrafo {
     private String marca;
     
     public Boligrafo() {
-    
+        color ="Negro";
     }
     public Boligrafo(String codigo, String color, String marca) {
         this.codigo = codigo;
