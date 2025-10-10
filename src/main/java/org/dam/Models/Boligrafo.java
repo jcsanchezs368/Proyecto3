@@ -2,7 +2,7 @@ package org.dam.Models;
 
 public class Boligrafo {
     private String codigo;
-    private String color;
+    private String colour;
     private String marca;
     
     public Boligrafo() {
@@ -10,7 +10,7 @@ public class Boligrafo {
     }
     public Boligrafo(String codigo, String color, String marca) {
         this.codigo = codigo;
-        this.color = color;
+        this.colour = color;
         this.marca = marca;
     }
     public String getCodigo() {
@@ -20,10 +20,10 @@ public class Boligrafo {
         this.codigo = codigo;
     }
     public String getColor() {
-        return this.color;
+        return this.colour;
     }
     public void setColor(String color) {
-        this.color = color;
+        this.colour = color;
     }
     public String getMarca() {
         return this.marca;
